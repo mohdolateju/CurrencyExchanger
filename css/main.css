@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#404040;
+	margin:0px;
+	color: whitesmoke;
+	font-weight: 100;
+	font-size: 12px;
+	font-family: sans-serif;
+	}
+	
+#wrapper{
+	min-height:100%;
+	background-color: #66BEDA;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#title{
+	line-height:45px;
+}
+
+.title{
+	padding: 2%;
+	line-height: 1.7;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: xx-large;
+	font-variant: small-caps;
+	color: gold;
+}
+
+#header{
+	background-color:#118C4E;
+	height:auto;
+}
+
+#menus{
+	background-color: yellowgreen;
+	padding-left: 7%;
+	color: darkred;
+}
+	
+#menubar li{
+	line-height:30px;
+	display: inline;
+	list-style: none;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+#menubar li.currentpage a{
+	color: #1e8c99;
+	text-decoration:none;
+}
+
+#menubar li.currentpage a:hover{
+	color: #1e8c99;
+	text-decoration:underline;
+}
+
+#menubar a{
+	color: rgb(129, 0, 0);
+	text-decoration:none;
+}
+
+#menubar a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+#content_header{
+	color: rgb(129, 0, 0);
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.form_header{
+	padding: 3%;
+	color: gold;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 20px;
+}
+	
+form{
+	padding: 0px 25px 25px 25px;
+
+}
+.centerform{
+	background-color: #1e8c99;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 5px;
+}
+
+.button{
+	background-color:#B30000;
+	color:#FFF;
+	border: 0px;
+	padding: 1.5%;
+}
+
+.button:hover{
+	background-color:#FFF;
+	color:#B30000;
+	border: 0px;
+	padding: 1.5%;
+}
+
+
+.submitbutton{
+	background-color:gold;
+	color:#118C4E;
+	border: 0px;
+	padding: 1.5%;
+}
+
+.submitbutton:hover{
+	background-color:#118C4E;
+	color:gold;
+	border: 0px;
+	padding: 1.5%;
+}
+
+#footer{
+	position:static;
+	bottom:-1px;
+	background-color:#118C4E;
+	padding:2%;
+}
+
+#content{
+	min-height:483px;
+}
