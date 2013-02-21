@@ -95,6 +95,10 @@ form{
 	border-radius: 5px;
 }
 
+.centerform strong{
+	text-decoration:underline;
+}
+
 .button{
 	background-color:#B30000;
 	color:#FFF;
@@ -122,6 +126,11 @@ form{
 	color:gold;
 	border: 0px;
 	padding: 1.5%;
+}
+
+.initval{
+	font-style: italic;
+	color: darkgreen;
 }
 
 #footer{
