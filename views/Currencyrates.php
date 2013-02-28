@@ -5,6 +5,19 @@
         <title>Currency Rates :: Currency Exchanger</title>
         <link href="../css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="../images/money.png" type="image/x-icon"/>
+        <script type="text/javascript">			
+			function removeAtt(no){				
+				var tags=document.getElementsByTagName('input');				
+					if(no==1){
+						tags[0].removeAttribute('class');
+						tags[0].value='';
+					}												
+					if(no==2){
+						tags[1].removeAttribute('class');
+						tags[1].value='';
+					}												
+			}						
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -32,8 +45,10 @@
                    	  <center>Currency Rates</center>
                   	</div>                  
            		  	<form name="excalculate" action="#" method="post">
-                          <input type="text" class="initval" name="country" style="margin-left:11%;" value="Search By Country"/>
-                          <input type="text" class="initval" name="currency" style="margin-left:5%;" value="Search By Currency"/>
+                          <input type="text" class="initval" name="country" onclick="removeAtt(1)" 
+                          							style="margin-left:11%;" value="Search By Country"/>
+                          <input type="text" class="initval" name="currency" onclick="removeAtt(2)" 
+                          							style="margin-left:5%;" value="Search By Currency"/>
                           <input type="text" disabled="disabled" name="rate" style="margin-left:5%; width:45px;" value="0.000"/>		
                       <br/>
                     </form>
