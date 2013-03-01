@@ -9,6 +9,15 @@ body{
 	font-size: 12px;
 	font-family: sans-serif;
 	}
+a{
+	color: rgb(129, 0, 0);
+	text-decoration:none;
+}
+
+a:hover{
+	color: gold;
+	text-decoration:underline;
+}
 	
 #wrapper{
 	min-height:100%;

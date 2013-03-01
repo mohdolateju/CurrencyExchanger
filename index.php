@@ -44,6 +44,7 @@
     			</div>
     		</div>
         	<div id="footer">
+            	<center><a href="views/Overview.php">Overview</a></center>
             	<center>Currency Exchanger Copyright Reserved</center>
             </div>
         </div>

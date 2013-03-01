@@ -54,7 +54,7 @@
                     </form>
                   	<table width="100%" border="0" cellspacing="2" cellpadding="5">
                       <caption>
-                        <strong>RATES</strong>
+                        <strong>RATES</strong>                     
                       </caption>
                       <tr>
                         <td width="40%"><strong>Currency</strong></td>
@@ -75,6 +75,7 @@
     			</div>
     		</div>
         	<div id="footer">
+            	<center><a href="Overview.php">Overview</a></center>
             	<center>Currency Exchanger Copyright Reserved</center>
             </div>
         </div>

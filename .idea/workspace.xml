@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Countries_Countroller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Currencies_Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Login_Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/base/Country.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/base/CountryList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/base/Currency.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/base/CurrencyList.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\CurrencyExchanger\controllers\ExCalculator_Controller.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Currencyrates.php" afterPath="$PROJECT_DIR$/views/Currencyrates.php" />
-    </list>
+    <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="" />
     <ignored path="CurrencyExchanger.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,6 +43,7 @@
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -114,38 +105,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
