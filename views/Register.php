@@ -34,10 +34,10 @@
                   	<form name="excalculate" action="#" method="post">
                          <label>Firstname :</label><input type="text" style="margin-left:18%;"/><br/><br/>
                          <label>Lastname :</label><input type="text" style="margin-left:18%;"/><br/><br/>
-                         <label>Email : </label><input type="text" style="margin-left:25%;"/><br/><br/>
+                         <label>Email : </label><input type="text" style="margin-left:24%;"/><br/><br/>
                          <label>Username: </label><input type="text" style="margin-left:17.5%;"/><br/><br/>
                          <label>Password :</label><input type="text" style="margin-left:18%;"/><br/><br/>
-                         <label>Confirm Password :</label><input type="text" style="margin-left:4%;"/><br/><br/>
+                         <label>Confirm Password :</label><input type="text" style="margin-left:5%;"/><br/><br/>
                       	 <input class="button" type="reset"  value="Reset"/>
                          <input class="submitbutton" style="margin-left:52%" type="submit" value="Calculate"/>
                     </form>
