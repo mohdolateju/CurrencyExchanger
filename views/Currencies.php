@@ -28,19 +28,17 @@
                 	<p id="content_header">List of Supported Currencies and Their Countries</p>
                 </center>
     			<div class="centerform">
-                    <div class="form_header">
-                    	<center>Enter Information to Calculate Amount</center>
-                    </div>
-               	  <form name="excalculate" action="#" method="post">
-                    <label>Amount :</label><input type="text" style="margin-left:11%;"/><br/><br/>
-                    <label>1st Currency :</label><input type="text" style="margin-left:5%;"/>
-                           	<input type="text" style="margin-left:5%; width:40px;"/><br/><br/>
-                    <label>2nd Currency : </label><input type="text" style="margin-left:3%;"/>
-                          	<input type="text" style="margin-left:5%; width:40px;"/><br/><br/>
-                    <label>Total: </label><input type="text" style="margin-left:14.5%;width:58%;"/><br/><br/>
-                         <input class="button" type="reset"  value="Reset"/>
-                       <input class="submitbutton" style="margin-left:52%" type="submit" value="Calculate"/>
-                    </form>
+                    <table border="1">
+                        <tr>
+<th>COUNTRY</th>
+<th>CURRENCY</th>
+</tr>
+<tr>
+<td>UNITED ARAB EMIRATES</td><td>ARAB EMIRATE DIRHAM (AED)</td>
+</tr>
+<tr><td>UNITED KINGDOM</td><td>POUND STERLING (GBP)</td>
+</tr>
+</table>
     			</div>
     		</div>
         	<div id="footer">

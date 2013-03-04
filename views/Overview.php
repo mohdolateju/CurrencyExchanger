@@ -40,7 +40,7 @@
                	  <p>Mohammed is responsible for the currency exchange and the user section. The currency exchanger section requires the user of the currency web service to get the currency rates and display them, the user can also search for currency rates. The user section is where users can register to keep a history of the currencies that have been exchanged, the user will be able to view past transaction history on login.</p> 
                     <strong>Huma Qaiser (H00145644 )</strong>
                     	<p>Huma's section is the currency exchange calculator which is the home page of the application. The currency exchange calculator  uses the currency rates gotten from the currency exchange section to calculate an amount from on currency to another. It will also makes use of an IP address web service to get the current location of the user and provide the currency on the form automatically.</p>
-                    <strong>Umar Jidda (H00)</strong>
+                    <strong>Umar Jidda (H00145664)</strong>
                     <p>Umar's section is the country and currency list pages where a list of countries and currencies are displayed with all the relevant details. These pages will make use of web services that provide all information about currencies and countries.</p>
                     <p><strong>Note: </strong>All sections use AJAX to display information on the front-end.</p>
                     
