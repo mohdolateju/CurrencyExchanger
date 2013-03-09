@@ -29,15 +29,18 @@
                 </center>
     			<div class="centerform">
                     <ul>
-<li>UNITED ARAB EMIRATES (UAE)</li>
-<li>UNITED KINGDOM (UK)</li>
-<li>UNITED STATES OF AMERICA (USA)</li>
-<li>GERMANY (GER)</li>
-<li>FRANCE (FR)</li>
-<li>SAUDI ARABIA (KSA)</li>
-<li>JAPAN (JPN)</li>
-<li>CHINA (PRC)</li>
-<li>RUSSIA (RUS)</li>
+<li>United Arab Emirates (UAE)</li>
+<li>United Kingdom (UK)</li>
+<li>United States of America (USA)</li>
+<li>Germany (GER)</li>
+<li>France (FR)</li>
+<li>Kingdom of Saudia Arabia (KSA)</li>
+<li>Japan (JPN)</li>
+<li>China (PRC)</li>
+<li>Russia (RUS)</li>
+<li>Pakistan (PKR)</li>
+<li>Nigeria (NGN)</li>
+<li>India (INR)</li>
 </ul>
     			</div>
     		</div>

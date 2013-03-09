@@ -34,10 +34,31 @@
 <th>CURRENCY</th>
 </tr>
 <tr>
-<td>UNITED ARAB EMIRATES</td><td>ARAB EMIRATE DIRHAM (AED)</td>
+<td>United Arab Emirates</td><td>Dirham</td>
 </tr>
-<tr><td>UNITED KINGDOM</td><td>POUND STERLING (GBP)</td>
+<tr><td>United Kingdom</td><td>Pound</td>
 </tr>
+<tr><td>United States of America</td>Dollar<td></td>
+</tr>
+<tr><td>Germany</td><td>Euro</td></tr>
+<tr><td>France</td><td>Euro</td>
+</tr>
+<tr><td>Kingdom of Saudia Arabia</td><td>Riyal</td>
+</tr>
+<tr><td>Japan</td><td>Yen</td>
+</tr>
+<tr><td>China</td><td>Yuan</td>
+</tr>
+<tr><td>Russia</td><td>Ruble</td>
+</tr>
+<tr><td>Pakistan</td>Rupee<td></td>
+</tr>
+<tr><td>Nigeria</td><td>Naira</td>
+</tr>
+<tr><td>India</td><td>Rupee</td>
+</tr>
+
+
 </table>
     			</div>
     		</div>
