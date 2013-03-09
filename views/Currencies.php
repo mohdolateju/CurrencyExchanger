@@ -38,7 +38,7 @@
 </tr>
 <tr><td>United Kingdom</td><td>Pound</td>
 </tr>
-<tr><td>United States of America</td>Dollar<td></td>
+<tr><td>United States of America</td><td>Dollar</td>
 </tr>
 <tr><td>Germany</td><td>Euro</td></tr>
 <tr><td>France</td><td>Euro</td>
@@ -51,7 +51,7 @@
 </tr>
 <tr><td>Russia</td><td>Ruble</td>
 </tr>
-<tr><td>Pakistan</td>Rupee<td></td>
+<tr><td>Pakistan</td><td>Rupee</td>
 </tr>
 <tr><td>Nigeria</td><td>Naira</td>
 </tr>
