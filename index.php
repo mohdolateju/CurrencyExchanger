@@ -34,7 +34,7 @@
     <body>
         <div id="wrapper">
     		<div id="header">
-    			<div id="title"><span class="title">Currency Exchanger</span></div>
+    			<div id="title"><span class="title" >Currency Exchanger</span></div>
     			<div id="menus">
                     <ul id="menubar">
                     <li class="currentpage"><a href="index.php">Home</a></li>

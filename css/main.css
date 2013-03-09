@@ -2,12 +2,14 @@
 /* CSS Document */
 
 body{
-	background-color:#404040;
+	background-image: url("frame.jpg");
+	//background-color: #E8D0A9;
 	margin:0px;
-	color: whitesmoke;
+	color: rgb(129, 0, 0);
 	font-weight: 100;
 	font-size: 12px;
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	
 	}
 a{
 	color: rgb(129, 0, 0);
@@ -20,10 +22,12 @@ a:hover{
 }
 	
 #wrapper{
+	//background-image: url("body.jpg");
+	background-image: url("chalk.jpg");
 	min-height:100%;
-	background-color: #66BEDA;
-	margin-left: 20%;
-	margin-right: 20%;
+	background-color: #E8D0A9;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #title{
@@ -37,21 +41,24 @@ a:hover{
 	font-style: oblique;
 	font-size: xx-large;
 	font-variant: small-caps;
-	color: gold;
+	 
+	color: #952d2e;
 }
 
 #header{
-	background-color:#118C4E;
+	background-color:#E8D0A9;
 	height:auto;
 }
 
 #menus{
-	background-color: yellowgreen;
+	background-color: darkred;
+	font-weight: bold;
 	padding-left: 7%;
-	color: darkred;
+	color: #E8D0A9;
 }
 	
 #menubar li{
+	
 	line-height:30px;
 	display: inline;
 	list-style: none;
@@ -60,8 +67,7 @@ a:hover{
 }
 
 #menubar li.currentpage a{
-	color: #1e8c99;
-	text-decoration:none;
+	text-decoration: underline ;
 }
 
 #menubar li.currentpage a:hover{
@@ -70,7 +76,7 @@ a:hover{
 }
 
 #menubar a{
-	color: rgb(129, 0, 0);
+	color: #E8D0A9;
 	text-decoration:none;
 }
 
@@ -87,7 +93,7 @@ a:hover{
 
 .form_header{
 	padding: 3%;
-	color: gold;
+	color: rgb(129, 0, 0);
 	font-family: inherit;
 	font-weight: bold;
 	font-size: 20px;
@@ -98,7 +104,7 @@ form{
 
 }
 .centerform{
-	background-color: #1e8c99;
+	background-color: #E8D0A9;
 	margin-left: 20%;
 	margin-right: 20%;
 	border-radius: 5px;
@@ -124,15 +130,15 @@ form{
 
 
 .submitbutton{
-	background-color:gold;
-	color:#118C4E;
+	background-color:#B30000;
+	color:white;
 	border: 0px;
 	padding: 1.5%;
 }
 
 .submitbutton:hover{
-	background-color:#118C4E;
-	color:gold;
+	background-color:white;
+	color:#B30000;
 	border: 0px;
 	padding: 1.5%;
 }
@@ -145,7 +151,7 @@ form{
 #footer{
 	position:static;
 	bottom:-1px;
-	background-color:#118C4E;
+	background-color:#E8D0A9;
 	padding:2%;
 }
 
