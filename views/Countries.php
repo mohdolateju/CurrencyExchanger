@@ -32,15 +32,15 @@
 <li>United Arab Emirates (UAE)</li>
 <li>United Kingdom (UK)</li>
 <li>United States of America (USA)</li>
-<li>Germany (GER)</li>
-<li>France (FR)</li>
+<li>Germany </li>
+<li>France </li>
 <li>Kingdom of Saudia Arabia (KSA)</li>
-<li>Japan (JPN)</li>
-<li>China (PRC)</li>
-<li>Russia (RUS)</li>
-<li>Pakistan (PKR)</li>
-<li>Nigeria (NGN)</li>
-<li>India (INR)</li>
+<li>Japan </li>
+<li>China  </li>
+<li>Russia </li>
+<li>Pakistan </li>
+<li>Nigeria </li>
+<li>India </li>
 </ul>
     			</div>
     		</div>
