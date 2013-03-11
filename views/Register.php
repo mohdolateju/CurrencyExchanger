@@ -27,7 +27,7 @@
             	<center>
                 	<p id="content_header">Register To Be Able To Access Your Exchange History</p>
                 </center>
-    			<div class="centerform" style="margin-left:25%;margin-right:25%">
+    			<div class="centerform" style="margin-left:30%;margin-right:30%">
                     <div class="form_header">
                     	<center>Enter Details to Register</center>
                     </div>

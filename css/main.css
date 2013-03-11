@@ -2,8 +2,7 @@
 /* CSS Document */
 
 body{
-	background-image: url("frame.jpg");
-	//background-color: #E8D0A9;
+	background-image: url("../images/frame.png");
 	margin:0px;
 	color: rgb(129, 0, 0);
 	font-weight: 100;
@@ -17,17 +16,16 @@ a{
 }
 
 a:hover{
-	color: gold;
 	text-decoration:underline;
 }
 	
 #wrapper{
-	//background-image: url("body.jpg");
-	background-image: url("chalk.jpg");
+	background-image: url("../images/texture.jpg");
 	min-height:100%;
 	background-color: #E8D0A9;
 	margin-left: 10%;
 	margin-right: 10%;
+	bottom: 0px;
 }
 
 #title{
@@ -40,8 +38,7 @@ a:hover{
 	font-weight: bold;
 	font-style: oblique;
 	font-size: xx-large;
-	font-variant: small-caps;
-	 
+	font-variant: small-caps;	 
 	color: #952d2e;
 }
 
@@ -53,8 +50,8 @@ a:hover{
 #menus{
 	background-color: darkred;
 	font-weight: bold;
-	padding-left: 7%;
-	color: #E8D0A9;
+	padding-left: 15%;
+	color: #E8D0A9;	
 }
 	
 #menubar li{
@@ -71,7 +68,6 @@ a:hover{
 }
 
 #menubar li.currentpage a:hover{
-	color: #1e8c99;
 	text-decoration:underline;
 }
 
@@ -156,5 +152,5 @@ form{
 }
 
 #content{
-	min-height:483px;
+	min-height:500px;
 }

@@ -5,6 +5,19 @@
         <title>Currencies :: Currency Exchanger</title>
         <link href="../css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="../images/money.png" type="image/x-icon"/>
+        <script type="text/javascript">			
+			function removeAtt(no){				
+				var tags=document.getElementsByTagName('input');				
+					if(no==1){
+						tags[0].removeAttribute('class');
+						tags[0].value='';
+					}												
+					if(no==2){
+						tags[1].removeAttribute('class');
+						tags[1].value='';
+					}												
+			}						
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -28,38 +41,85 @@
                 	<p id="content_header">List of Supported Currencies and Their Countries</p>
                 </center>
     			<div class="centerform">
-                    <table border="1">
+                <div class="form_header">
+                   	  <center>Search for Currency</center>
+                  	</div>                  
+           		  	<form name="getCurrencies" action="#" method="post">
+                          <input type="text" class="initval" name="country" onclick="removeAtt(1)" 
+                          							style="margin-left:11%;" value="Search By Country"/>
+                          <input type="text" class="initval" name="currency" onclick="removeAtt(2)" 
+                          							style="margin-left:5%;" value="Search Currency"/>
+                          <input type="text" disabled="disabled" name="rate" style="margin-left:5%; width:45px;" value="USD"/>		
+                      <br/>
+                    </form>
+                    <table width="100%" border="0" cellspacing="2" cellpadding="5">
                         <tr>
-<th>COUNTRY</th>
-<th>CURRENCY</th>
-</tr>
-<tr>
-<td>United Arab Emirates</td><td>Dirham</td>
-</tr>
-<tr><td>United Kingdom</td><td>Pound</td>
-</tr>
-<tr><td>United States of America</td><td>Dollar</td>
-</tr>
-<tr><td>Germany</td><td>Euro</td></tr>
-<tr><td>France</td><td>Euro</td>
-</tr>
-<tr><td>Kingdom of Saudia Arabia</td><td>Riyal</td>
-</tr>
-<tr><td>Japan</td><td>Yen</td>
-</tr>
-<tr><td>China</td><td>Yuan</td>
-</tr>
-<tr><td>Russia</td><td>Ruble</td>
-</tr>
-<tr><td>Pakistan</td><td>Rupee</td>
-</tr>
-<tr><td>Nigeria</td><td>Naira</td>
-</tr>
-<tr><td>India</td><td>Rupee</td>
-</tr>
-
-
-</table>
+                            <td><strong>COUNTRY</strong></td>
+                            <td><strong>CURRENCY</strong></td>
+                            <td><strong>ABREV.</strong></td>
+                        </tr>
+                        <tr>
+                        	<td>United Arab Emirates</td>
+                            <td>Arab Emirate Dirhams</td>
+                            <td>AED</td>
+                        </tr>
+                        <tr>
+                        	<td>United Kingdom</td>
+                            <td>Pound</td>
+                            <td>BP</td>
+                        </tr>
+                        <tr>
+                        	<td>United States of America</td>
+                            <td>Dollar</td>
+                            <td>USD</td>
+                        </tr>
+                        <tr>
+                        	<td>Germany</td>
+                            <td>Euro</td>
+                            <td>EUR</td>
+                        </tr>
+                        <tr>
+                        	<td>France</td>
+                            <td>Euro</td>
+                            <td>EUR</td>
+                        </tr>
+                        <tr>
+                        	<td>Kingdom of Saudia Arabia</td>
+                            <td>Arabian Riyal</td>
+                            <td>RYL</td>
+                        </tr>
+                        <tr>
+                        	<td>Japan</td>
+                            <td>Janapese Yen</td>
+                            <td>YEN</td>
+                        </tr>
+                        <tr>
+                        	<td>China</td>
+                            <td>Yuan</td>
+                            <td>YEN</td>
+                        </tr>
+                        <tr>
+                        	<td>Russia</td>
+                            <td>Ruble</td>
+                            <td>RBL</td>
+                        </tr>
+                        <tr>
+                        	<td>Pakistan</td>
+                            <td>Rupee</td>
+                            <td>RUP</td>
+                        </tr>
+                        <tr>
+                        	<td>Nigeria</td>
+                            <td>Naira</td>
+                            <td>NGN</td>
+                        </tr>
+                        <tr>
+                        	<td>India</td>
+                            <td>Rupee</td>
+                            <td>RUP</td>
+                        </tr>                                        
+                    </table>
+                    <p>
     			</div>
     		</div>
         	<div id="footer">

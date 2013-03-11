@@ -50,16 +50,16 @@
             	<center>
                 	<p id="content_header">Welcome to Currency Exchanger</p>
                 </center>
-    			<div class="centerform" style="margin-left:25%;margin-right:25%">
+    			<div class="centerform" style="margin-left:30%;margin-right:30%">
                     <div class="form_header"><center>Enter Information to Calculate Amount</center></div>
                   		<form name="excalculate" action="#" method="post">
                           <label>Amount :</label><input type="text" class="initval" name="amount" onclick="removeAtt(1)" style="margin-left:13%;" value="0" />
                            		<br/><br/>
                           <label>1st Currency :</label>
-                   		  		<input type="text" class="initval" name="firstcur" onclick="removeAtt(2)" style="margin-left:4.1%;" value="Arab Emirate Dirhams" />
+                   		  		<input type="text" class="initval" name="firstcur" onclick="removeAtt(2)" style="margin-left:5.1%;" value="Arab Emirate Dirhams" />
                             	<input type="text" class="initval" name="abbrfirstcur" onclick="removeAtt(3)" style="margin-left:5%; width:40px;" value="AED"/><br/><br/>
                           <label>2nd Currency : </label>
-                   		  		<input type="text" class="initval" name="secondcur" onclick="removeAtt(4)"  style="margin-left:3%;" value="U.S Dollars"/>
+                   		  		<input type="text" class="initval" name="secondcur" onclick="removeAtt(4)"  style="margin-left:4%;" value="U.S Dollars"/>
                             	<input type="text" class="initval" name="abbrsecondcur" onclick="removeAtt(5)" style="margin-left:5%; width:40px;" value="USD"/><br/><br/>
                           <label>Total: </label>
                    		  		<input type="text" class="initval" style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>

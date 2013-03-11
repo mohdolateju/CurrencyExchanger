@@ -45,7 +45,7 @@
                   		</form>
     			</div>
                 <br />
-                <div class="centerform" style="margin-left:10%; margin-right:10%">
+                <div class="centerform" style="margin-left:15%; margin-right:15%">
                      <div class="form_header">
                          <center>Your History</center>
                      </div>

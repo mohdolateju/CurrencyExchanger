@@ -40,7 +40,7 @@
             	<center>
                 	<p id="content_header">Currency Exchange Rates</p>
                 </center>
-    			<div class="centerform" style="margin-left:10%; margin-right:10%">
+    			<div class="centerform" style="margin-left:20%; margin-right:20%">
                     <div class="form_header">
                    	  <center>Currency Rates</center>
                   	</div>                  

@@ -27,7 +27,7 @@
             	<center>
                 	<p id="content_header">Login to Access Your History and Details</p>
                 </center>
-    			<div class="centerform" style="margin-left:30%;margin-right:30%">
+    			<div class="centerform" style="margin-left:35%;margin-right:35%">
                     <div class="form_header">
                     	<center>Enter Login Details</center>
                   </div>

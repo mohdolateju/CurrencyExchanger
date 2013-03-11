@@ -84,30 +84,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CurrencyExchanger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -116,10 +92,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.lookFeel" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MohdCinema" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,6 +120,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="" />
       <created>1362065635973</created>
       <updated>1362065635973</updated>
     </task>
@@ -152,23 +130,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -226,145 +204,77 @@
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/controllers/BrowseBooks_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="260" selection-end="261" vertical-scroll-proportion="-5.230769">
-          <folding>
-            <element signature="n#index#0;n#BrowseBooks_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="24" selection-start="260" selection-end="261" vertical-scroll-proportion="-5.230769" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/controllers/Home_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="200" selection-end="201" vertical-scroll-proportion="7.576923">
-          <folding>
-            <element signature="n#index#0;n#Home_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="28" selection-start="200" selection-end="201" vertical-scroll-proportion="7.576923" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/controllers/LoginValidation_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
+        <state line="65" column="5" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-6.5384617" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/controllers/RegisterValidation_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="2003" selection-end="2003" vertical-scroll-proportion="-3.2692308">
-          <folding>
-            <element signature="n#create_new_costumer#0;n#RegisterValidation_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="43" column="35" selection-start="2003" selection-end="2003" vertical-scroll-proportion="-3.2692308" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/controllers/UpdateBookDetails_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="196" selection-end="196" vertical-scroll-proportion="22.884615">
-          <folding>
-            <element signature="n#index#0;n#UpdateBookDetails_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="24" selection-start="196" selection-end="196" vertical-scroll-proportion="22.884615" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/controllers/EditCart_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="202" selection-end="203" vertical-scroll-proportion="0.22284645">
-          <folding>
-            <element signature="n#index#0;n#EditCart_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="24" selection-start="202" selection-end="203" vertical-scroll-proportion="0.22284645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/base/CountryList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.230769">
-          <folding>
-            <element signature="n#__construct#0;n#CountryList#0;n#!!top" expanded="true" />
-            <element signature="n#getAllCountries#0;n#CountryList#0;n#!!top" expanded="true" />
-            <element signature="n#addCountry#0;n#CountryList#0;n#!!top" expanded="true" />
-            <element signature="n#removeCountry#0;n#CountryList#0;n#!!top" expanded="true" />
-            <element signature="n#searchByName#0;n#CountryList#0;n#!!top" expanded="true" />
-            <element signature="n#searchByAbbrev#0;n#CountryList#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="30" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.230769" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="112" selection-end="112" vertical-scroll-proportion="0.22284645">
-          <folding>
-            <element signature="n#__construct#0;n#Country#0;n#!!top" expanded="true" />
-            <element signature="n#getName#0;n#Country#0;n#!!top" expanded="true" />
-            <element signature="n#setName#0;n#Country#0;n#!!top" expanded="true" />
-            <element signature="n#getAbbrev#0;n#Country#0;n#!!top" expanded="true" />
-            <element signature="n#setAbbrev#0;n#Country#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="48" selection-start="112" selection-end="112" vertical-scroll-proportion="0.22284645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Countries_Countroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="198" selection-end="198" vertical-scroll-proportion="0.41385767">
-          <folding />
-        </state>
+        <state line="13" column="1" selection-start="198" selection-end="198" vertical-scroll-proportion="0.41385767" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/views/RegisterUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="376" selection-end="376" vertical-scroll-proportion="0.41385767">
-          <folding />
-        </state>
+        <state line="13" column="41" selection-start="376" selection-end="376" vertical-scroll-proportion="0.41385767" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Login_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25468165">
-          <folding />
-        </state>
+        <state line="8" column="22" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25468165" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/My Projects/MohammedsBookstore/application/views/UserDetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.71910113">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.71910113" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Currencies_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="648" selection-end="648" vertical-scroll-proportion="0.8913858">
-          <folding>
-            <element signature="n#__construct#0;n#currencyList#0;n#!!top" expanded="true" />
-            <element signature="n#getAllCurrencies#0;n#currencyList#0;n#!!top" expanded="true" />
-            <element signature="n#addCurrency#0;n#currencyList#0;n#!!top" expanded="true" />
-            <element signature="n#searchByName#0;n#currencyList#0;n#!!top" expanded="true" />
-            <element signature="n#searchByAbbrev#0;n#currencyList#0;n#!!top" expanded="true" />
-            <element signature="n#searchByCountry#0;n#currencyList#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="28" column="24" selection-start="648" selection-end="648" vertical-scroll-proportion="0.8913858" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/base/Currency.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.39513108">
-          <folding>
-            <element signature="n#__construct#0;n#Currency#0;n#!!top" expanded="true" />
-            <element signature="n#getName#0;n#Currency#0;n#!!top" expanded="true" />
-            <element signature="n#setName#0;n#Currency#0;n#!!top" expanded="true" />
-            <element signature="n#getAbbrev#0;n#Currency#0;n#!!top" expanded="true" />
-            <element signature="n#setAbbrev#0;n#Currency#0;n#!!top" expanded="true" />
-            <element signature="n#getCountry#0;n#Currency#0;n#!!top" expanded="true" />
-            <element signature="n#setCountry#0;n#Currency#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="31" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.39513108" />
       </provider>
     </entry>
   </component>
