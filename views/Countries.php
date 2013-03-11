@@ -5,19 +5,7 @@
         <title>Countries :: Currency Exchanger</title>
         <link href="../css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="../images/money.png" type="image/x-icon"/>
-        <script type="text/javascript">			
-			function removeAtt(no){				
-				var tags=document.getElementsByTagName('input');				
-					if(no==1){
-						tags[0].removeAttribute('class');
-						tags[0].value='';
-					}												
-					if(no==2){
-						tags[1].removeAttribute('class');
-						tags[1].value='';
-					}												
-			}						
-        </script>
+        <script type="text/javascript" src="../javascript/main.js"></script>
     </head>
     <body>
         <div id="wrapper">
@@ -42,7 +30,7 @@
                 </center>
    			  <div class="centerform" style="margin-left: 25%; margin-right: 25%;">
                 <div class="form_header">
-                   	  <center>Search for Countries</center>
+                   	  <center>Search for Country</center>
            	    </div>                  
    		  	    <form name="getCurrencies" action="#" method="post">
                     <input type="text" class="initval" name="country" onclick="removeAtt(1)" 

@@ -5,31 +5,7 @@
         <title>Home :: Currency Exchanger</title>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="images/money.png" type="image/x-icon"/>
-        <script type="text/javascript">			
-			function removeAtt(no){				
-				var tags=document.getElementsByTagName('input');				
-					if(no==1){
-						tags[0].removeAttribute('class');
-						tags[0].value='';
-					}												
-					if(no==2){
-						tags[1].removeAttribute('class');
-						tags[1].value='';
-					}	
-					if(no==3){
-						tags[2].removeAttribute('class');
-						tags[2].value='';
-					}	
-					if(no==4){
-						tags[3].removeAttribute('class');
-						tags[3].value='';
-					}
-					if(no==5){
-						tags[4].removeAttribute('class');
-						tags[4].value='';
-					}										
-			}						
-        </script>
+        <script type="text/javascript" src="javascript/main.js"></script>
     </head>
     <body>
         <div id="wrapper">
@@ -62,7 +38,7 @@
                    		  		<input type="text" class="initval" name="secondcur" onclick="removeAtt(4)"  style="margin-left:4%;" value="U.S Dollars"/>
                             	<input type="text" class="initval" name="abbrsecondcur" onclick="removeAtt(5)" style="margin-left:5%; width:40px;" value="USD"/><br/><br/>
                           <label>Total: </label>
-                   		  		<input type="text" class="initval" style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
+                   		  		<input type="text" class="initval" disabled="disabled" style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
                           <input class="button" type="reset"  value="Reset"/>
                           <input class="submitbutton" style="margin-left:52%" type="submit" value="Calculate"/>
                         </form>
