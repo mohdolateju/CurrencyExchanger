@@ -107,7 +107,7 @@
                             <td>RUP</td>
                         </tr>                                        
                     </table>
-                    <br/>
+                    <p></p>
     			</div>
     		</div>
         	<div id="footer">
