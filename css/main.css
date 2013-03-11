@@ -55,12 +55,9 @@ a:hover{
 }
 	
 #menubar li{
-	
 	line-height:30px;
 	display: inline;
 	list-style: none;
-	padding-left:3%;
-	padding-right:3%;
 }
 
 #menubar li.currentpage a{
@@ -74,11 +71,19 @@ a:hover{
 #menubar a{
 	color: #E8D0A9;
 	text-decoration:none;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top: 0.7%;
+	padding-bottom: 0.8%;
 }
 
 #menubar a:hover{
-	color:white;
+	color: darkred;
 	text-decoration:none;
+	background-color: #E8D0A9;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8D0A9', endColorstr='#CF9D49'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#E8D0A9), to(#CF9D49)); 
+	background: -moz-linear-gradient(top,  #E8D0A9,  #CF9D49); 
 }
 
 #content_header{
