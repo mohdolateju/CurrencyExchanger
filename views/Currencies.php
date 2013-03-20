@@ -94,7 +94,7 @@
                         <tr>
                         	<td>Pakistan</td>
                             <td>Rupee</td>
-                            <td>RUP</td>
+                            <td>PKR</td>
                         </tr>
                         <tr>
                         	<td>Nigeria</td>
@@ -104,7 +104,7 @@
                         <tr>
                         	<td>India</td>
                             <td>Rupee</td>
-                            <td>RUP</td>
+                            <td>INR</td>
                         </tr>                                        
                     </table>
                     <p></p>
