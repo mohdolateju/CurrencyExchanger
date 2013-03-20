@@ -6,6 +6,18 @@
         <link href="../css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="../images/money.png" type="image/x-icon"/>
         <script type="text/javascript" src="../javascript/main.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-1.9.1.js"></script>
+        <script type="text/javascript">
+            function getRate(){
+                var country=$("#country").val();
+                var currency=$("#currency").val();
+                $.get("../controllers/Currencyrates_Controller.php", {country: country,                                                                      currency: currency},
+                        function(value){
+                        $("#rate").val(value);
+                    });
+            }
+
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -32,12 +44,14 @@
                     <div class="form_header">
                    	  <center>Currency Rates</center>
                   	</div>                  
-           		  	<form name="excalculate" action="#" method="post">
-                          <input type="text" class="initval" name="country" onclick="removeAtt(1)" 
+           		  	<form name="excalculate" action="../controllers/Currencyrates_Controller.php" method="get">
+                          <input type="text" id="country" class="initval" name="country" onclick="removeAtt(1)"
                           							style="margin-left:11%;" value="Search By Country"/>
-                          <input type="text" class="initval" name="currency" onclick="removeAtt(2)" 
+                          <input type="text" id="currency" class="initval" name="currency" onclick="removeAtt(2)"
+                                 onkeydown="getRate()"
                           							style="margin-left:5%;" value="Search By Currency"/>
-                          <input type="text" disabled="disabled" name="rate" style="margin-left:5%; width:45px;" value="0.000"/>		
+                          <input type="text" id="rate" disabled="disabled" name="rate" style="margin-left:5%; width:45px;
+                                    background-color: white;"/>
                       <br/>
                     </form>
                   	<table width="100%" border="0" cellspacing="2" cellpadding="5">
@@ -57,6 +71,26 @@
                       <tr>
                         <td>Arab Emirates Dirhams (AED)</td>
                         <td>United Arab Emirates</td>
+                        <td>1.110</td>
+                      </tr>
+                      <tr>
+                        <td>British Pound Sterling (GBP)</td>
+                        <td>United Kingdom</td>
+                        <td>1.110</td>
+                      </tr>
+                      <tr>
+                        <td>Japanese Yen (Yen)</td>
+                        <td>Japan</td>
+                        <td>1.110</td>
+                      </tr>
+                      <tr>
+                        <td>Chinese Nuan Renminbi (CNY)</td>
+                        <td>Republic of China</td>
+                        <td>1.110</td>
+                      </tr>
+                      <tr>
+                        <td>South African Rand (SAR)</td>
+                        <td>Republic of South Africa</td>
                         <td>1.110</td>
                       </tr>
                     </table>
