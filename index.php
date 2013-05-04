@@ -32,11 +32,11 @@
                           <label>Amount :</label><input type="text" class="initval" name="amount" onclick="removeAtt(1)" style="margin-left:13%;" value="0" />
                            		<br/><br/>
                           <label>1st Currency :</label>
-                   		  		<input type="text" class="initval" name="firstcur" onclick="removeAtt(2)" style="margin-left:5.1%;" value="Arab Emirate Dirhams" />
-                            	<input type="text" class="initval" name="abbrfirstcur" onclick="removeAtt(3)" style="margin-left:5%; width:40px;" value="AED"/><br/><br/>
+                   		  		<input type="text" class="initval" name="firstcur" onclick="removeAtt(2)" style="margin-left:5.1%;" value="Source Currency" />
+                            	<input type="text" class="initval" name="abbrfirstcur" onclick="removeAtt(3)" style="margin-left:5%; width:40px;" value="S Abbr"/><br/><br/>
                           <label>2nd Currency : </label>
-                   		  		<input type="text" class="initval" name="secondcur" onclick="removeAtt(4)"  style="margin-left:4%;" value="U.S Dollars"/>
-                            	<input type="text" class="initval" name="abbrsecondcur" onclick="removeAtt(5)" style="margin-left:5%; width:40px;" value="USD"/><br/><br/>
+                   		  		<input type="text" class="initval" name="secondcur" onclick="removeAtt(4)"  style="margin-left:4%;" value="Target Currency"/>
+                            	<input type="text" class="initval" name="abbrsecondcur" onclick="removeAtt(5)" style="margin-left:5%; width:40px;" value="T Abbr"/><br/><br/>
                           <label>Total: </label>
                    		  		<input type="text" class="initval" disabled="disabled" style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
                           <input class="button" type="reset"  value="Reset"/>
