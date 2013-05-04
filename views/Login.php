@@ -35,7 +35,7 @@
                     <label>Username :</label><input type="text" style="margin-left:11%;"/><br/><br/>
                     <label>Password :</label><input type="text" style="margin-left:12%;"/><br/><br/>
                            <input class="button" type="reset"  value="Reset"/>
-                           <input class="submitbutton" style="margin-left:52%" type="submit" value="Calculate"/>
+                           <input class="submitbutton" style="margin-left:52%" type="submit" value="Submit"/>
                   </form>
     			</div>
     		</div>
