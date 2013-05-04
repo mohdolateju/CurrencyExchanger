@@ -8,11 +8,43 @@
         <script type="text/javascript" src="../javascript/main.js"></script>
         <script type="text/javascript" src="../javascript/jquery-1.9.1.js"></script>
         <script type="text/javascript">
+            function getRateByCountry(){
+                var country=$("#country").val();
+                var currency=$("#currency").val();
+
+                getRateCurrencyAbbrev();
+
+                $.get("../controllers/Currencyrates_Controller.php?action=rateByCountry", {country: country,currency: currency},
+                        function(value){
+                        $("#rate").val(value);
+                    });
+
+            }
+
+            function getRateCurrencyAbbrev(){
+                var country=$("#country").val();
+                var currency=$("#currency").val();
+                if (currency==""||currency=="Search By Currency"){
+                    $.get("../controllers/Currencyrates_Controller.php?action=currencyAbbrev", {country: country},
+                        function(value){
+                            $("#currency").val(value);
+                        });
+                }
+            }
+
+            function getRateByCurrency(){
+                var country=$("#country").val();
+                var currency=$("#currency").val();
+                $.get("../controllers/Currencyrates_Controller.php?action=getRate", {country: country,currency: currency},
+                    function(value){
+                        $("#rate").val(value);
+                    });
+            }
             function getRate(){
                 var country=$("#country").val();
                 var currency=$("#currency").val();
-                $.get("../controllers/Currencyrates_Controller.php", {country: country,                                                                      currency: currency},
-                        function(value){
+                $.get("../controllers/Currencyrates_Controller.php?action=getRate", {country: country,                                                                      currency: currency},
+                    function(value){
                         $("#rate").val(value);
                     });
             }
@@ -46,6 +78,7 @@
                   	</div>                  
            		  	<form name="excalculate" action="../controllers/Currencyrates_Controller.php" method="get">
                           <input type="text" id="country" class="initval" name="country" onclick="removeAtt(1)"
+                                 onkeydown="getRateByCountry()"
                           							style="margin-left:11%;" value="Search By Country"/>
                           <input type="text" id="currency" class="initval" name="currency" onclick="removeAtt(2)"
                                  onkeydown="getRate()"

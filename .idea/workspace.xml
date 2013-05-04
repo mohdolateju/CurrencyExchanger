@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/base/CountryList.php" afterPath="$PROJECT_DIR$/controllers/base/CountryList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/base/Currency.php" afterPath="$PROJECT_DIR$/controllers/base/Currency.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/base/CurrencyList.php" afterPath="$PROJECT_DIR$/controllers/base/CurrencyList.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Currencyrates.php" afterPath="$PROJECT_DIR$/views/Currencyrates.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" afterPath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CurrencyExchanger.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367647174448" ignored="false" />
-    <file path="/Currencyrates_Controller.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367664769098" ignored="false" />
+    <file path="/Currencyrates_Controller.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367688568419" ignored="false" />
     <file path="/CurrencyList.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367664556569" ignored="false" />
+    <file path="/Currencyrates.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367678739872" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,43 +34,7 @@
       <file leaf-file-name="Currencyrates_Controller.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="86" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.2751938">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrencyList.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="27" selection-end="464" vertical-scroll-proportion="-19.615385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Currency.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/base/Currency.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="20" selection-start="494" selection-end="505" vertical-scroll-proportion="-18.307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Currencyrates.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="55" selection-start="2824" selection-end="2824" vertical-scroll-proportion="-8.807693">
+            <state line="56" column="18" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.29566854">
               <folding />
             </state>
           </provider>
@@ -82,63 +43,43 @@
       <file leaf-file-name="CountryList.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/base/CountryList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="115" selection-end="115" vertical-scroll-proportion="-5.230769">
+            <state line="8" column="9" selection-start="115" selection-end="115" vertical-scroll-proportion="18.73077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/Login_Controller.php">
+      <file leaf-file-name="Currency.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base/Currency.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-4.576923">
+            <state line="18" column="29" selection-start="356" selection-end="365" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/template.php">
+      <file leaf-file-name="Country.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1362145137782" expanded="true" signature="164:2446" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="175:385" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="396:2438" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="423:2426" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="447:991" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="546:978" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="584:955" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="1016:2231" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="1038:1138" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="1179:2218" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="1356:2204" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="1435:1451" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="1548:1563" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="1622:1649" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="1747:1762" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="1821:1848" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="1938:1966" placeholder="..." />
-                <marker date="1362145137782" expanded="false" signature="2123:2138" placeholder="..." />
-                <marker date="1362145137782" expanded="true" signature="2258:2411" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrencyAndCountryInterface.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/CurrencyAndCountryInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Countries_Countroller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/Countries_Countroller.php">
+      <file leaf-file-name="CurrencyList.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="-5.8846154">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.538462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Currencyrates.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="2431" selection-end="2431" vertical-scroll-proportion="-29.384615">
               <folding />
             </state>
           </provider>
@@ -172,10 +113,10 @@
         <option value="$PROJECT_DIR$/controllers/Currencies_Controller.php" />
         <option value="$PROJECT_DIR$/javascript/main.js" />
         <option value="$PROJECT_DIR$/controllers/base/CountryList.php" />
-        <option value="$PROJECT_DIR$/views/Currencyrates.php" />
         <option value="$PROJECT_DIR$/controllers/base/Currency.php" />
-        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
         <option value="$PROJECT_DIR$/controllers/base/CurrencyList.php" />
+        <option value="$PROJECT_DIR$/views/Currencyrates.php" />
+        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
       </list>
     </option>
   </component>
@@ -284,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MohdCinema" />
     <property name="FullScreen" value="false" />
@@ -465,7 +406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CurrencyAndCountryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+        <state line="11" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.3482309">
           <folding />
         </state>
       </provider>
@@ -481,81 +422,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1362145137782" expanded="true" signature="164:2446" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="175:385" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="396:2438" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="423:2426" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="447:991" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="546:978" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="584:955" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="1016:2231" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="1038:1138" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="1179:2218" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="1356:2204" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="1435:1451" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="1548:1563" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="1622:1649" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="1747:1762" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="1821:1848" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="1938:1966" placeholder="..." />
-            <marker date="1362145137782" expanded="false" signature="2123:2138" placeholder="..." />
-            <marker date="1362145137782" expanded="true" signature="2258:2411" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1362145137782" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Countries_Countroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="27" selection-end="464" vertical-scroll-proportion="-19.615385">
+        <state line="9" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.2849162">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Login_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/base/Currency.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="494" selection-end="505" vertical-scroll-proportion="-18.307692">
+        <state line="7" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.22160149">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="55" selection-start="2824" selection-end="2824" vertical-scroll-proportion="-8.807693">
+        <state line="50" column="0" selection-start="2431" selection-end="2431" vertical-scroll-proportion="-29.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base/Currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="356" selection-end="365" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/base/CountryList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="115" selection-end="115" vertical-scroll-proportion="-5.230769">
+        <state line="8" column="9" selection-start="115" selection-end="115" vertical-scroll-proportion="18.73077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.538462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="86" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.2751938">
+        <state line="56" column="18" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.29566854">
           <folding />
         </state>
       </provider>

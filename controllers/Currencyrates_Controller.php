@@ -2,6 +2,9 @@
 /**
  *
  */
+    require_once("base/CurrencyList.php");
+
+
 class Currencyrates_Controller
 {
 
@@ -9,6 +12,7 @@ class Currencyrates_Controller
     *@param Domain, HTTP Method, REST path, currency
     *@return Currency
     */
+
    function loadRate($host,$method,$path,$currency){
         $connection=fsockopen($host,80);
         fputs($connection,"$method $path$currency HTTP/1.1\r\n");
@@ -19,7 +23,7 @@ class Currencyrates_Controller
 
 
       while(!feof($connection)){
-        $results=fgetss($connection);
+        $results=fgets($connection);
       }
 
        fclose($connection);
@@ -28,11 +32,29 @@ class Currencyrates_Controller
    }
 
 
+    public function popCurr(){
+
+    //Validate Form Data
+
+
+        //    ( !empty($_GET["currency"]) && (is_string($_GET["currency"])) && (strlen($_GET["currency"])<=3))
+        $classInstance=new Currencyrates_Controller();
+        if(empty($_GET["currency"])){
+            $country=$_GET["country"];
+            $currency=$classInstance->searchCurrencyByName($country);
+            if(!empty($currency)){
+                print $currency->getAbbrev();
+            }
+        }
+
+    }
+
    /**Gets The Currency Rate from Form*/
-   function getRate(){
+   public function getRate(){
+
        //Validate Form Data
        if( (!empty($_GET["country"]) && is_string($_GET["country"]) && (strlen($_GET["country"])<=3) )
-               && ( !empty($_GET["currency"]) && (is_string($_GET["currency"])) && (strlen($_GET["currency"])<=3)) ){
+                ){
 
            $country=$_GET["country"];
            $currency=$_GET["currency"];
@@ -42,15 +64,13 @@ class Currencyrates_Controller
            //Get the rate
            $rate=$this->loadRate("currencies.apps.grandtrunk.net","GET","/getlatest/usd/",$currency);
 
-           //Invalid Don't print
-           if(strstr($rate,'Invalid')==false){
-               print($rate);
+           //Print Exchange Rate but if not Found Print Not Found Message
+           if(strstr($rate,'False')!=false){
+               print "Not Found";
+           }else{
+               print ($rate);
            }
 
-
-       //} else{
-        //   header("Location: ../views/Currencyrates.php");
-       //}
    }
 
    }
@@ -89,21 +109,50 @@ class Currencyrates_Controller
 
         }
 
+        //search for currency by its abbreviation
+        public function searchCountryAbbrev($name){
+
+            $instance=CurrencyList::getInstance();
+            foreach($this->$instance->getCurrencyList() as $country){
+
+
+                if($country->getName()==$name){
+
+                    return $country;
+
+                }
+
+            }
+
+        }
 }
 
     //Runs and Prints a value that will be gotten by the Currency Rate File Using Ajax
 
-      $classInstance =new Currencyrates_Controller();
+        $classInstance=new Currencyrates_Controller();
       //    $instance->getRate();
-      require_once("base/CurrencyList.php");
 
-      //$instance=CurrencyList::getInstance();
-      //$countries=$instance->getAllCountriesInfo();
 
-      //$result=explode("	",$countries);
-      //print_r($instance->getCurrencyList());
+//      //$instance=CurrencyList::getInstance();
+//      //$countries=$instance->getAllCountriesInfo();
+//
+//      //$result=explode("	",$countries);
+//      //print_r($instance->getCurrencyList());
+//
+//      //Search for Armenian Currency and Print the abbreviation
+//      $value=$classInstance->searchCurrencyByName("Armenia");
+//      print_r($value->getAbbrev());
 
-      //Search for Armenian Currency and Print the abbreviation
-      $value=$classInstance->searchCurrencyByName("Armenia");
-      print_r($value->getAbbrev());
+        if($_REQUEST['action']=='getRate'){
+           $classInstance->getRate();
+        }
+
+        else if($_REQUEST['action']=='currencyAbbrev'){
+            $classInstance->popCurr();
+        }
+
+        else if($_REQUEST['action']=='rateByCountry'){
+            $classInstance->getRate();
+        }
+
 ?>
