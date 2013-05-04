@@ -50,7 +50,7 @@
                           <input type="text" id="currency" class="initval" name="currency" onclick="removeAtt(2)"
                                  onkeydown="getRate()"
                           							style="margin-left:5%;" value="Search By Currency"/>
-                          <input type="text" id="rate" disabled="disabled" name="rate" style="margin-left:5%; width:45px;
+                          <input type="text" id="rate"  name="rate" style="margin-left:5%; width:45px;
                                     background-color: white;"/>
                       <br/>
                     </form>

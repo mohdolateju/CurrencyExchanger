@@ -17,8 +17,9 @@ class Currencyrates_Controller
         fputs($connection,"Connection: close\r\n\r\n");
         $results="";
 
+
       while(!feof($connection)){
-        $results=fgets($connection);
+        $results=fgetss($connection);
       }
 
        fclose($connection);
@@ -53,10 +54,56 @@ class Currencyrates_Controller
    }
 
    }
+
+        //Searches for Currency By Country Name
+        public function searchCurrencyByName($name){
+
+            $instance=CurrencyList::getInstance();
+            foreach($instance->getCurrencyList() as $currency){
+
+
+                if($currency->getName()==$name){
+
+                    return $currency;
+
+                }
+
+            }
+
+       }
+
+        //search for currency by its abbreviation
+        public function searchCurrencybyAbbrev($abbrev){
+
+            $instance=CurrencyList::getInstance();
+            foreach($this->$instance->getCurrencyList() as $currency){
+
+
+                if($currency->getAbbrev()==$abbrev){
+
+                    return $currency;
+
+                }
+
+            }
+
+        }
+
 }
 
-    //Run Validator
-    $instance =new Currencyrates_Controller();
-    $instance->getRate();
+    //Runs and Prints a value that will be gotten by the Currency Rate File Using Ajax
 
+      $classInstance =new Currencyrates_Controller();
+      //    $instance->getRate();
+      require_once("base/CurrencyList.php");
+
+      //$instance=CurrencyList::getInstance();
+      //$countries=$instance->getAllCountriesInfo();
+
+      //$result=explode("	",$countries);
+      //print_r($instance->getCurrencyList());
+
+      //Search for Armenian Currency and Print the abbreviation
+      $value=$classInstance->searchCurrencyByName("Armenia");
+      print_r($value->getAbbrev());
 ?>

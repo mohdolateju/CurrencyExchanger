@@ -6,8 +6,10 @@ class CountryList
 {
     private $countryList;
 
+    /***/
     public function __construct(){
         $this->countryList=array();
+
     }
 
     public function getAllCountries()
