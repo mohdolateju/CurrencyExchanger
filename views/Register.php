@@ -39,7 +39,7 @@
                          <label>Password :</label><input type="text" style="margin-left:18%;"/><br/><br/>
                          <label>Confirm Password :</label><input type="text" style="margin-left:5%;"/><br/><br/>
                       	 <input class="button" type="reset"  value="Reset"/>
-                         <input class="submitbutton" style="margin-left:52%" type="submit" value="Calculate"/>
+                         <input class="submitbutton" style="margin-left:52%" type="submit" value="Submit"/>
                     </form>
     			</div>
     		</div>
