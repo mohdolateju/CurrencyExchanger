@@ -104,6 +104,27 @@
 
            }
 
+        /**Gets The Currency Rate from the Form and prints it*/
+        public function convertRate(){
+
+            //Get the Country and Currency values from the Ajax get request
+            $firstCurr=$_GET["firstCurr"];
+            $secondCurr=$_GET["secondCurr"];
+
+
+                //Get the rate using the Currency
+                $rate=$this->loadRate("currencies.apps.grandtrunk.net","GET","/getlatest/$firstCurr/",$secondCurr);
+
+                //Print Exchange Rate but if the rate is not Found Print the Not Found Message
+                if(strstr($rate,'False')!=false){
+                    print "Not Found";
+                }else{
+                    print ($rate);
+                }
+
+
+        }
+
             /**Searches for Currency By Country Name*/
             public function searchCurrencyByName($name){
 
@@ -199,6 +220,12 @@
             else if($_REQUEST['action']=='searchCountry'){
                 //run the countrySearch method from the Currency rates Controller instance
                 $classInstance->countrySearch();
+            }
+
+            //If the action variable has a value of "searchCountry"..........
+            else if($_REQUEST['action']=='get2CurrRate'){
+                //run the countrySearch method from the Currency rates Controller instance
+                $classInstance->convertRate();
             }
        }
 ?>

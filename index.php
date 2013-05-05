@@ -20,8 +20,7 @@
                     var currency="";
                 }
 
-                //get rate by currency Abbreviation
-                //getRateCurrencyByAbbrev();
+
 
                 //send ajax query with "rateByCountry" as the arguement value
                 $.get("controllers/Currencyrates_Controller.php?action=currencyAbbrev", {country: country},
@@ -48,14 +47,17 @@
             function getRateCurrencyByAbbrev(){
 
                 //get country and currency values from the fields
-                var country=$("#country").val();
-                var currency=$("#currency").val();
+                var firstCurr=$("#firstCurrAbbrev").val();
+                var secondCurr=$("#secondCurrAbbrev").val();
 
                 //send ajax query with "currencyAbbrev" as the arguement value
-                $.get("../controllers/Currencyrates_Controller.php?action=currencyAbbrev", {country: country},
+                $.get("controllers/Currencyrates_Controller.php?action=get2CurrRate", {firstCurr: firstCurr,
+                                                                                            secondCurr:secondCurr},
                     function(value){
                         //get the value from the ajax request and print it in the currency abbrev text field
-                        $("#currency").val(value);
+                        var amt= $("#amount").val();
+
+                        $("#total").val(parseFloat(value*amt).toFixed(2));
                     });
             }
 
@@ -83,7 +85,8 @@
     			<div class="centerform" style="margin-left:30%;margin-right:30%">
                     <div class="form_header"><center>Enter Information to Calculate Amount</center></div>
                   		<form name="excalculate" action="#" method="get">
-                          <label>Amount :</label><input type="text" class="initval" name="amount" onclick="removeAtt(1)" style="margin-left:13%;" value="0" />
+                          <label>Amount :</label><input type="text" class="initval" id="amount" name="amount" onclick="removeAtt(1)"
+                                                        style="margin-left:13%;" value="0" />
                            		<br/><br/>
                           <label>From Currency :</label>
                    		  		<input type="text" class="initval" id="firstCountry" name="firstcur" onclick="removeAtt(2)"
@@ -96,9 +99,9 @@
                             	<input type="text" class="initval" id="secondCurrAbbrev" name="abbrsecondcur" onclick="removeAtt(5)"
                                        style="margin-left:5%; width:40px;" value="T Abbr"/><br/><br/>
                           <label>Total: </label>
-                   		  		<input type="text" class="initval" disabled="disabled" style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
+                   		  		<input type="text" id="total" class="initval"  style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
                           <input class="button" type="reset"  value="Reset"/>
-                          <input class="submitbutton" style="margin-left:52%" type="submit" value="Calculate"/>
+                          <input class="submitbutton" style="margin-left:52%" type="button" onclick="getRateCurrencyByAbbrev()" value="Calculate" />
                         </form>
     			</div>
     		</div>

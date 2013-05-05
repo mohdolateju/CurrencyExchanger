@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" afterPath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CurrencyExchanger.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367751385727" ignored="false" />
-    <file path="/Currencyrates_Controller.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367760855440" ignored="false" />
+    <file path="/Currencyrates_Controller.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367769974008" ignored="false" />
     <file path="/CurrencyList.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367664556569" ignored="false" />
     <file path="/Currencyrates.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367764229196" ignored="false" />
-    <file path="/index.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367768094376" ignored="false" />
+    <file path="/index.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367772391182" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +34,13 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="-0.43076923">
+            <state line="62" column="0" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.6961538">
               <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#5;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#7;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +49,7 @@
       <file leaf-file-name="Currencyrates.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="44" selection-start="6095" selection-end="6095" vertical-scroll-proportion="-65.5">
+            <state line="136" column="57" selection-start="6754" selection-end="6774" vertical-scroll-proportion="-14.884615">
               <folding />
             </state>
           </provider>
@@ -55,7 +58,7 @@
       <file leaf-file-name="Currencyrates_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="42" selection-start="6526" selection-end="6540" vertical-scroll-proportion="-99.84615">
+            <state line="120" column="22" selection-start="4536" selection-end="4536" vertical-scroll-proportion="-22.692308">
               <folding />
             </state>
           </provider>
@@ -90,9 +93,9 @@
         <option value="$PROJECT_DIR$/javascript/main.js" />
         <option value="$PROJECT_DIR$/controllers/base/CountryList.php" />
         <option value="$PROJECT_DIR$/controllers/base/Currency.php" />
-        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
         <option value="$PROJECT_DIR$/views/Currencyrates.php" />
         <option value="$PROJECT_DIR$/controllers/base/CurrencyList.php" />
+        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -263,10 +266,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28560606" sideWeight="0.9965812" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28560606" sideWeight="0.6717949" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -343,13 +346,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Currencies_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.15917604" />
@@ -416,24 +412,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="44" selection-start="6095" selection-end="6095" vertical-scroll-proportion="-65.5">
+        <state line="136" column="57" selection-start="6754" selection-end="6774" vertical-scroll-proportion="-14.884615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="42" selection-start="6526" selection-end="6540" vertical-scroll-proportion="-99.84615">
+        <state line="120" column="22" selection-start="4536" selection-end="4536" vertical-scroll-proportion="-22.692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.33273703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="-0.43076923">
+        <state line="62" column="0" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.6961538">
           <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#5;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#7;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
