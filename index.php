@@ -6,6 +6,60 @@
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="images/money.png" type="image/x-icon"/>
         <script type="text/javascript" src="javascript/main.js"></script>
+        <script type="text/javascript" src="javascript/jquery-1.9.1.js"></script>
+        <script type="text/javascript">
+            //Function to Get and Print Currency rate From the Country Name or Currency abbreviation
+            function getRateByCountry(value){
+
+                if(value==1){
+                //get country and currency values from the fields
+                var country=$("#firstCountry").val();
+                var currency="";
+                }else if(value==2){
+                    var country=$("#secondCountry").val();
+                    var currency="";
+                }
+
+                //get rate by currency Abbreviation
+                //getRateCurrencyByAbbrev();
+
+                //send ajax query with "rateByCountry" as the arguement value
+                $.get("controllers/Currencyrates_Controller.php?action=currencyAbbrev", {country: country},
+                    function(ajaxValue){
+                        //get the value from the ajax request and print it in the currency rate text field
+                        //$("#firstCurrAbbrev").val("");
+
+                        if(value==1){
+                            //get country and currency values from the fields
+                            $("#firstCurrAbbrev").val(ajaxValue);
+                        }else if(value==2){
+                            $("#secondCurrAbbrev").val(ajaxValue);
+                        }
+                    });
+
+                //if the country text field is empty, set the currency text field as empty
+                if(country==""){
+                    $("#currency").val("");
+                }
+
+            }
+
+            //Function to Get and Print Currency abbreviation From the Country Name
+            function getRateCurrencyByAbbrev(){
+
+                //get country and currency values from the fields
+                var country=$("#country").val();
+                var currency=$("#currency").val();
+
+                //send ajax query with "currencyAbbrev" as the arguement value
+                $.get("../controllers/Currencyrates_Controller.php?action=currencyAbbrev", {country: country},
+                    function(value){
+                        //get the value from the ajax request and print it in the currency abbrev text field
+                        $("#currency").val(value);
+                    });
+            }
+
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -28,15 +82,19 @@
                 </center>
     			<div class="centerform" style="margin-left:30%;margin-right:30%">
                     <div class="form_header"><center>Enter Information to Calculate Amount</center></div>
-                  		<form name="excalculate" action="#" method="post">
+                  		<form name="excalculate" action="#" method="get">
                           <label>Amount :</label><input type="text" class="initval" name="amount" onclick="removeAtt(1)" style="margin-left:13%;" value="0" />
                            		<br/><br/>
-                          <label>1st Currency :</label>
-                   		  		<input type="text" class="initval" name="firstcur" onclick="removeAtt(2)" style="margin-left:5.1%;" value="Source Currency" />
-                            	<input type="text" class="initval" name="abbrfirstcur" onclick="removeAtt(3)" style="margin-left:5%; width:40px;" value="S Abbr"/><br/><br/>
-                          <label>2nd Currency : </label>
-                   		  		<input type="text" class="initval" name="secondcur" onclick="removeAtt(4)"  style="margin-left:4%;" value="Target Currency"/>
-                            	<input type="text" class="initval" name="abbrsecondcur" onclick="removeAtt(5)" style="margin-left:5%; width:40px;" value="T Abbr"/><br/><br/>
+                          <label>From Currency :</label>
+                   		  		<input type="text" class="initval" id="firstCountry" name="firstcur" onclick="removeAtt(2)"
+                                       onkeypress="getRateByCountry(1)" style="margin-left:5.1%;" value="Source Currency" />
+                            	<input type="text" class="initval" id="firstCurrAbbrev" name="abbrfirstcur" onclick="removeAtt(3)"
+                                       style="margin-left:5%; width:40px;" value="S Abbr"/><br/><br/>
+                          <label>To Currency : </label>
+                   		  		<input type="text" class="initval" id="secondCountry" name="secondcur" onclick="removeAtt(4)"
+                                       onkeypress="getRateByCountry(2)" style="margin-left:4%;" value="Target Currency"/>
+                            	<input type="text" class="initval" id="secondCurrAbbrev" name="abbrsecondcur" onclick="removeAtt(5)"
+                                       style="margin-left:5%; width:40px;" value="T Abbr"/><br/><br/>
                           <label>Total: </label>
                    		  		<input type="text" class="initval" disabled="disabled" style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
                           <input class="button" type="reset"  value="Reset"/>
