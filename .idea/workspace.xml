@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Countries.php" afterPath="$PROJECT_DIR$/views/Countries.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" afterPath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CurrencyExchanger.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367751385727" ignored="false" />
-    <file path="/Currencyrates_Controller.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367769974008" ignored="false" />
+    <file path="/Currencyrates_Controller.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367781231729" ignored="false" />
     <file path="/CurrencyList.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367664556569" ignored="false" />
     <file path="/Currencyrates.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367764229196" ignored="false" />
-    <file path="/index.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367772391182" ignored="false" />
+    <file path="/index.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367773019352" ignored="false" />
+    <file path="/Countries.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367782221228" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.6961538">
+            <state line="99" column="0" selection-start="5361" selection-end="5361" vertical-scroll-proportion="-64.73077">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,10 +49,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Countries.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Countries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="122" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.6593186">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Currencies.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Currencies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Currencyrates.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="57" selection-start="6754" selection-end="6774" vertical-scroll-proportion="-14.884615">
+            <state line="141" column="20" selection-start="6961" selection-end="8073" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -58,8 +87,37 @@
       <file leaf-file-name="Currencyrates_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="22" selection-start="4536" selection-end="4536" vertical-scroll-proportion="-22.692308">
+            <state line="190" column="67" selection-start="6616" selection-end="6616" vertical-scroll-proportion="-16.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Country.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="198" selection-end="207" vertical-scroll-proportion="-7.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryList.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base/CountryList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="19" selection-start="475" selection-end="475" vertical-scroll-proportion="-0.6923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrencyList.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="20" selection-start="2374" selection-end="2391" vertical-scroll-proportion="-6.3846154">
+              <folding>
+                <element signature="e#6#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +153,9 @@
         <option value="$PROJECT_DIR$/controllers/base/Currency.php" />
         <option value="$PROJECT_DIR$/views/Currencyrates.php" />
         <option value="$PROJECT_DIR$/controllers/base/CurrencyList.php" />
-        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
+        <option value="$PROJECT_DIR$/views/Countries.php" />
       </list>
     </option>
   </component>
@@ -176,6 +235,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CurrencyExchanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CurrencyExchanger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,7 +351,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -346,21 +423,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/Currencies_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.15917604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="699" selection-end="699" vertical-scroll-proportion="0.6982143" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CurrencyAndCountryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.3482309" />
@@ -391,39 +453,6 @@
         <state line="18" column="29" selection-start="356" selection-end="365" vertical-scroll-proportion="0.17383178" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.36448598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/base/CountryList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0317757" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="40" selection-start="2223" selection-end="2223" vertical-scroll-proportion="-39.884617">
-          <folding>
-            <element signature="e#6#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="57" selection-start="6754" selection-end="6774" vertical-scroll-proportion="-14.884615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="22" selection-start="4536" selection-end="4536" vertical-scroll-proportion="-22.692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.33273703">
@@ -431,15 +460,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="20" selection-start="3669" selection-end="3669" vertical-scroll-proportion="-6.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base/CountryList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="19" selection-start="475" selection-end="475" vertical-scroll-proportion="-0.6923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.6961538">
+        <state line="99" column="0" selection-start="5361" selection-end="5361" vertical-scroll-proportion="-64.73077">
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#5;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#7;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="198" selection-end="207" vertical-scroll-proportion="-7.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/base/CurrencyList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="20" selection-start="2374" selection-end="2391" vertical-scroll-proportion="-6.3846154">
+          <folding>
+            <element signature="e#6#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="67" selection-start="6616" selection-end="6616" vertical-scroll-proportion="-16.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Currencies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="20" selection-start="6961" selection-end="8073" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Countries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="122" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.6593186">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -92,12 +92,12 @@
                    		  		<input type="text" class="initval" id="firstCountry" name="firstcur" onclick="removeAtt(2)"
                                        onkeypress="getRateByCountry(1)" style="margin-left:5.1%;" value="Source Currency" />
                             	<input type="text" class="initval" id="firstCurrAbbrev" name="abbrfirstcur" onclick="removeAtt(3)"
-                                       style="margin-left:5%; width:40px;" value="S Abbr"/><br/><br/>
+                                       style="margin-left:5%; width:40px;" value="Abbr"/><br/><br/>
                           <label>To Currency : </label>
                    		  		<input type="text" class="initval" id="secondCountry" name="secondcur" onclick="removeAtt(4)"
                                        onkeypress="getRateByCountry(2)" style="margin-left:4%;" value="Target Currency"/>
                             	<input type="text" class="initval" id="secondCurrAbbrev" name="abbrsecondcur" onclick="removeAtt(5)"
-                                       style="margin-left:5%; width:40px;" value="T Abbr"/><br/><br/>
+                                       style="margin-left:5%; width:40px;" value="Abbr"/><br/><br/>
                           <label>Total: </label>
                    		  		<input type="text" id="total" class="initval"  style="margin-left:17%;width:50%;" value="$0.66"/><br/><br/>
                           <input class="button" type="reset"  value="Reset"/>

@@ -165,24 +165,33 @@
 
             }
 
-            /**search for country by its name*/
-            public function searchCountryAbbrev($name){
+            /**Searches for Currency By Country Name*/
+            public function searchCountryByName($name){
 
                 //get the instance of currency list
                 $instance=CurrencyList::getInstance();
 
                 //search through the list of currencies....
-                foreach($this->$instance->getCurrencyList() as $country){
+                foreach($instance->getCountryList() as $currency){
 
-                    // if the name of the country matches the name given, return the country object
-                    if($country->getName()==$name){
+                    // if the name of the currency matches the name give, return the currency object
+                    if($currency->getName()==$name){
 
-                        return $country;
+                        return $currency;
 
                     }
 
                 }
 
+            }
+
+            public function getCuntAbbrev(){
+                    $currency=trim($_GET["country"]);
+
+                            $currencyObj=$this->searchCountryByName($currency);
+                        if(!empty($currencyObj)){
+                            print $currencyObj->getAbbrev();
+                        }
             }
     }
 
@@ -226,6 +235,12 @@
             else if($_REQUEST['action']=='get2CurrRate'){
                 //run the countrySearch method from the Currency rates Controller instance
                 $classInstance->convertRate();
+            }
+
+            //If the action variable has a value of "searchCountry"..........
+            else if($_REQUEST['action']=='getCountryAbbrev'){
+                //run the countrySearch method from the Currency rates Controller instance
+                $classInstance->getCuntAbbrev();
             }
        }
 ?>

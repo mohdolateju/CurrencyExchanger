@@ -6,6 +6,26 @@
         <link href="../css/main.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="../images/money.png" type="image/x-icon"/>
         <script type="text/javascript" src="../javascript/main.js"></script>
+        <script type="text/javascript" src="../javascript/jquery-1.9.1.js"></script>
+        <script type="text/javascript">
+            function getRateByCountry(){
+                    //get country and currency values from the fields
+                    var country=$("#country").val();
+
+                //send ajax query with "rateByCountry" as the arguement value
+                $.get("../controllers/Currencyrates_Controller.php?action=getCountryAbbrev", {country: country},
+                    function(ajaxValue){
+                        //get the value from the ajax request and print it in the currency rate text field
+                        //$("#firstCurrAbbrev").val("");
+                            //get country and currency values from the fields
+                            $("#countryAbbr").val(ajaxValue);
+
+                    });
+
+
+            }
+
+            </script>
     </head>
     <body>
         <div id="wrapper">
@@ -32,13 +52,33 @@
                 <div class="form_header">
                    	  <center>Search for Country</center>
            	    </div>                  
-   		  	    <form name="getCurrencies" action="#" method="post">
-                    <input type="text" class="initval" name="country" onclick="removeAtt(1)" 
+   		  	    <form name="getCurrencies" action="../controllers/Currencyrates_Controller.php" method="get">
+                    <input type="text" class="initval" name="country" id="country" onclick="removeAtt(1)"
+                           onkeyup="getRateByCountry()"
                           							style="margin-left:25%;" value="Search By Country"/>                          
-                    <input type="text" disabled="disabled" name="rate" style="margin-left:5%; width:45px;" value="UAE"/>		
+                    <input type="text" id="countryAbbr" name="countryAbbr" style="margin-left:5%; width:45px;" value="ABBR"/>
                       <br/>
                 </form>
       			<center>
+                    <?php
+                    //get Currency rate Controller file
+                    include("../controllers/Currencyrates_Controller.php");
+
+                    //get Currency rate Controller class
+                    $instance=new Currencyrates_Controller();
+
+                    // Getting the List Of Some Currencies to be Displayed from a web service
+                    $aed=$instance->searchCountryByName("United Arab Emirates")->getAbbrev();
+                    $gbp=$instance->searchCountryByName("United Kingdom")->getAbbrev();
+                    $ger=$instance->searchCountryByName("Germany")->getAbbrev();
+                    $fra=$instance->searchCountryByName("France")->getAbbrev();
+                    $jap=$instance->searchCountryByName("Japan")->getAbbrev();
+                    $chn=$instance->searchCountryByName("China")->getAbbrev();
+                    $rss=$instance->searchCountryByName("Russia")->getAbbrev();
+                    $pkn=$instance->searchCountryByName("Pakistan")->getAbbrev();
+                    $ngn=$instance->searchCountryByName("Nigeria")->getAbbrev();
+                    $ind=$instance->searchCountryByName("India")->getAbbrev();
+                    ?>
                       <table width="70%" border="0" cellspacing="2" cellpadding="5">
                         <tr>
                           <td width="74%"><strong>Country</strong></td>
@@ -46,51 +86,43 @@
                         </tr>
                         <tr>
                           <td>United Arab Emirates</td>
-                          <td>UAE</td>
+                          <td><?php echo $aed ?></td>
                         </tr>
                         <tr>
                           <td>United Kingdom</td>
-                          <td>UK</td>
-                        </tr>
-                        <tr>
-                          <td>United States of America</td>
-                          <td>USA</td>
-                        </tr>
-                        <tr>
-                          <td>Kingdom of Saudia Arabia</td>
-                          <td>KSA</td>
+                          <td><?php echo $gbp ?></td>
                         </tr>
                         <tr>
                           <td>Germany</td>
-                          <td>GMN</td>
+                          <td><?php echo $ger ?></td>
                         </tr>
                         <tr>
                           <td>France</td>
-                          <td>FRC</td>
+                          <td><?php echo $fra ?></td>
                         </tr>
                         <tr>
                           <td>Japan</td>
-                          <td>JPN</td>
+                          <td><?php echo $jap ?></td>
                         </tr>
                         <tr>
                           <td>China</td>
-                          <td>CHN</td>
+                          <td><?php echo $chn ?></td>
                         </tr>
                         <tr>
                           <td>Russia</td>
-                          <td>RS</td>
+                          <td><?php echo $rss ?></td>
                         </tr>
                         <tr>
                           <td>Pakistan</td>
-                          <td>PAK</td>
+                          <td><?php echo $pkn ?></td>
                         </tr>
                         <tr>
                           <td>Nigeria</td>
-                          <td>NG</td>
+                          <td><?php echo $ngn ?></td>
                         </tr>
                         <tr>
                           <td>India</td>
-                          <td>IND</td>
+                          <td><?php echo $ind ?></td>
                         </tr>
                       </table>
   				</center>
