@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Countries.php" afterPath="$PROJECT_DIR$/views/Countries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" afterPath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Currencies.php" afterPath="$PROJECT_DIR$/views/Currencies.php" />
     </list>
     <ignored path="CurrencyExchanger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,6 +12,7 @@
     <file path="/Currencyrates.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367764229196" ignored="false" />
     <file path="/index.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367773019352" ignored="false" />
     <file path="/Countries.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367782221228" ignored="false" />
+    <file path="/Currencies.php" changelist="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" time="1367783511134" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="5361" selection-end="5361" vertical-scroll-proportion="-64.73077">
+            <state line="98" column="32" selection-start="5260" selection-end="5260" vertical-scroll-proportion="-64.07692">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Countries.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Countries.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Countries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="122" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.6593186">
+            <state line="88" column="48" selection-start="4717" selection-end="4735" vertical-scroll-proportion="-6.769231">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,14 +60,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Currencies.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Currencies.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Currencies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="126" column="29" selection-start="6231" selection-end="6231" vertical-scroll-proportion="0.93359375">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +76,7 @@
       <file leaf-file-name="Currencyrates.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="20" selection-start="6961" selection-end="8073" vertical-scroll-proportion="-3.2692308">
+            <state line="36" column="12" selection-start="1803" selection-end="2451" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -140,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/controllers/ExCalculator_Controller.php" />
         <option value="$PROJECT_DIR$/controllers/Countries_Controller.php" />
         <option value="$PROJECT_DIR$/controllers/Country.php" />
         <option value="$PROJECT_DIR$/controllers/CountryList.php" />
@@ -156,6 +153,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
         <option value="$PROJECT_DIR$/views/Countries.php" />
+        <option value="$PROJECT_DIR$/views/Currencies.php" />
       </list>
     </option>
   </component>
@@ -474,19 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="5361" selection-end="5361" vertical-scroll-proportion="-64.73077">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#5;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#7;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/base/Country.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="29" selection-start="198" selection-end="207" vertical-scroll-proportion="-7.6153846">
@@ -510,31 +495,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Currencies.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="98" column="32" selection-start="5260" selection-end="5260" vertical-scroll-proportion="-64.07692">
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#5;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#7;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="6961" selection-end="8073" vertical-scroll-proportion="-3.2692308">
+        <state line="36" column="12" selection-start="1803" selection-end="2451" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Countries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="122" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.6593186">
+        <state line="88" column="48" selection-start="4717" selection-end="4735" vertical-scroll-proportion="-6.769231">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Currencies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="29" selection-start="6231" selection-end="6231" vertical-scroll-proportion="0.93359375">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
