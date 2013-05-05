@@ -8,16 +8,18 @@
         <script type="text/javascript" src="../javascript/main.js"></script>
         <script type="text/javascript" src="../javascript/jquery-1.9.1.js"></script>
         <script type="text/javascript">
-            function getRateByCountry(){
+
+            //Function to Get and Print Country abbreviation From the Country Name
+            function getCountryAbbrev(){
                     //get country and currency values from the fields
                     var country=$("#country").val();
 
-                //send ajax query with "rateByCountry" as the arguement value
+                //send ajax query with "getcountryAbbrev" as the arguement value
                 $.get("../controllers/Currencyrates_Controller.php?action=getCountryAbbrev", {country: country},
                     function(ajaxValue){
-                        //get the value from the ajax request and print it in the currency rate text field
-                        //$("#firstCurrAbbrev").val("");
-                            //get country and currency values from the fields
+                        //get the value from the ajax request and print it in the country abbreviation text field
+
+                            //set abbreviation to the country abbrev text field
                             $("#countryAbbr").val(ajaxValue);
 
                     });
@@ -54,7 +56,7 @@
            	    </div>                  
    		  	    <form name="getCurrencies" action="../controllers/Currencyrates_Controller.php" method="get">
                     <input type="text" class="initval" name="country" id="country" onclick="removeAtt(1)"
-                           onkeyup="getRateByCountry()"
+                           onkeyup="getCountryAbbrev()"
                           							style="margin-left:25%;" value="Search By Country"/>                          
                     <input type="text" id="countryAbbr" name="countryAbbr" style="margin-left:5%; width:45px;" value="ABBR"/>
                       <br/>
@@ -67,7 +69,7 @@
                     //get Currency rate Controller class
                     $instance=new Currencyrates_Controller();
 
-                    // Getting the List Of Some Currencies to be Displayed from a web service
+                    // Getting the List Of Some Country Abbreviations to be Displayed from a web service
                     $aed=$instance->searchCountryByName("United Arab Emirates")->getAbbrev();
                     $gbp=$instance->searchCountryByName("United Kingdom")->getAbbrev();
                     $ger=$instance->searchCountryByName("Germany")->getAbbrev();

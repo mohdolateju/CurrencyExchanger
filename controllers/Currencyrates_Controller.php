@@ -104,15 +104,14 @@
 
            }
 
-        /**Gets The Currency Rate from the Form and prints it*/
+        /**Gets The Currency Rate Between 2 Currencies from the Form and prints it*/
         public function convertRate(){
 
-            //Get the Country and Currency values from the Ajax get request
+            //Get the 1st and 2nd Currencies values from the Ajax get request
             $firstCurr=$_GET["firstCurr"];
             $secondCurr=$_GET["secondCurr"];
 
-
-                //Get the rate using the Currency
+                //Get the rate of the Currencies
                 $rate=$this->loadRate("currencies.apps.grandtrunk.net","GET","/getlatest/$firstCurr/",$secondCurr);
 
                 //Print Exchange Rate but if the rate is not Found Print the Not Found Message
@@ -165,19 +164,19 @@
 
             }
 
-            /**Searches for Currency By Country Name*/
+            /**Searches for Country Object By Country Name*/
             public function searchCountryByName($name){
 
                 //get the instance of currency list
                 $instance=CurrencyList::getInstance();
 
                 //search through the list of currencies....
-                foreach($instance->getCountryList() as $currency){
+                foreach($instance->getCountryList() as $country){
 
-                    // if the name of the currency matches the name give, return the currency object
-                    if($currency->getName()==$name){
+                    // if the name of the currency matches the name give, return the country object
+                    if($country->getName()==$name){
 
-                        return $currency;
+                        return $country;
 
                     }
 
@@ -231,15 +230,15 @@
                 $classInstance->countrySearch();
             }
 
-            //If the action variable has a value of "searchCountry"..........
+            //If the action variable has a value of "get2currRate"..........
             else if($_REQUEST['action']=='get2CurrRate'){
-                //run the countrySearch method from the Currency rates Controller instance
+                //run the convertRate method from the Currency rates Controller instance
                 $classInstance->convertRate();
             }
 
-            //If the action variable has a value of "searchCountry"..........
+            //If the action variable has a value of "getCountryAbbrev"..........
             else if($_REQUEST['action']=='getCountryAbbrev'){
-                //run the countrySearch method from the Currency rates Controller instance
+                //run the getCuntAbbrev method from the Currency rates Controller instance
                 $classInstance->getCuntAbbrev();
             }
        }

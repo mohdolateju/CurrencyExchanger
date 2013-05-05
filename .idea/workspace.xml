@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ff8e83-5f10-4a8c-b87d-37cf2cf6c5a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Countries.php" afterPath="$PROJECT_DIR$/views/Countries.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" afterPath="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CurrencyExchanger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +37,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="755" selection-end="772" vertical-scroll-proportion="0.40881765">
+            <state line="11" column="83" selection-start="662" selection-end="733" vertical-scroll-proportion="0.3747495">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,7 +52,7 @@
       <file leaf-file-name="Countries.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Countries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="48" selection-start="4717" selection-end="4735" vertical-scroll-proportion="-6.769231">
+            <state line="21" column="79" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-13.730769">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,7 +65,7 @@
       <file leaf-file-name="Currencies.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Currencies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="29" selection-start="6231" selection-end="6231" vertical-scroll-proportion="-18.384615">
+            <state line="126" column="29" selection-start="6231" selection-end="6231" vertical-scroll-proportion="-80.42308">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,7 +78,7 @@
       <file leaf-file-name="Currencyrates.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="12" selection-start="1803" selection-end="2451" vertical-scroll-proportion="-6.5384617">
+            <state line="33" column="13" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-21.576923">
               <folding />
             </state>
           </provider>
@@ -85,7 +87,7 @@
       <file leaf-file-name="Currencyrates_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="67" selection-start="6616" selection-end="6616" vertical-scroll-proportion="-16.0">
+            <state line="113" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="-73.88461">
               <folding />
             </state>
           </provider>
@@ -150,10 +152,10 @@
         <option value="$PROJECT_DIR$/controllers/base/Currency.php" />
         <option value="$PROJECT_DIR$/views/Currencyrates.php" />
         <option value="$PROJECT_DIR$/controllers/base/CurrencyList.php" />
-        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
-        <option value="$PROJECT_DIR$/views/Countries.php" />
         <option value="$PROJECT_DIR$/views/Currencies.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/Countries.php" />
+        <option value="$PROJECT_DIR$/controllers/Currencyrates_Controller.php" />
       </list>
     </option>
   </component>
@@ -488,34 +490,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="67" selection-start="6616" selection-end="6616" vertical-scroll-proportion="-16.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Currencyrates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="12" selection-start="1803" selection-end="2451" vertical-scroll-proportion="-6.5384617">
+        <state line="33" column="13" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-21.576923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Countries.php">
+    <entry file="file://$PROJECT_DIR$/controllers/Currencyrates_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="48" selection-start="4717" selection-end="4735" vertical-scroll-proportion="-6.769231">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="113" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="-73.88461">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Currencies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="29" selection-start="6231" selection-end="6231" vertical-scroll-proportion="-18.384615">
+        <state line="126" column="29" selection-start="6231" selection-end="6231" vertical-scroll-proportion="-80.42308">
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -524,9 +515,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/Countries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="79" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-13.730769">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="755" selection-end="772" vertical-scroll-proportion="0.40881765">
+        <state line="11" column="83" selection-start="662" selection-end="733" vertical-scroll-proportion="0.3747495">
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
