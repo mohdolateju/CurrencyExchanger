@@ -6,8 +6,7 @@
  * Time: 18:52
  * To change this template use File | Settings | File Templates.
  */
-interface CurrencyAndCountry
+class CurrencyCalculator_Home
 {
-     function getCountriesList();
-     function getCurrenciesList();
+
 }
